@@ -1,0 +1,34 @@
+name: Test Coveralls
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  workflow:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Clone repository
+        uses: actions/checkout@v2
+
+      - name: Use NodeJs
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run coverage
+        run: npm run jest
+
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+

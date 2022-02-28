@@ -1,0 +1,12 @@
+# folders
+node_modules/
+dist/
+coverage/
+.vscode/
+
+# files
+*.env
+*.log
+*.DS_Store
+npm-debug.log
+package-lock.json

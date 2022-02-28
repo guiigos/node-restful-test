@@ -1,0 +1,39 @@
+{
+  "name": "node-restful-test",
+  "version": "1.0.0",
+  "description": "Project for testing pratice using restful with mongoose",
+  "keywords": [
+    "mongoose",
+    "restful",
+    "express",
+    "jest"
+  ],
+  "author": {
+    "name": "Guilherme Alves",
+    "email": "guiigos.alves@gmail.com",
+    "url": "http://www.guiigos.alves"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "nodemon": "nodemon index.js",
+    "jest": "jest"
+  },
+  "dependencies": {
+    "consign": "0.1.6",
+    "cors": "2.8.5",
+    "dotenv": "16.0.0",
+    "express": "4.17.3",
+    "morgan": "1.10.0",
+    "node-restful": "0.2.6"
+  },
+  "devDependencies": {
+    "faker": "5.5.3",
+    "jest": "27.5.1",
+    "jest-extended": "2.0.0",
+    "supertest": "6.2.2",
+    "mongodb-memory-server": "8.4.0",
+    "nodemon": "2.0.15"
+  },
+  "license": "MIT"
+}
