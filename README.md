@@ -1,8 +1,6 @@
 # Node Restful Test
 Project designed to practice unit and integration tests with **NodeJs** performing the creation of the server with [express](https://github.com/expressjs/express) and [restful](https://github.com/baugarten/node-restful). The tests are being carried out with [jest](https://github.com/facebook/jest). This project has a basic structure of a rest route.
 
-[![Coverage](https://coveralls.io/repos/github/guiigos/node-restful-test/badge.svg?branch=master)](https://coveralls.io/github/guiigos/node-restful-test?branch=master)
-
 <details>
   <summary>
     <strong>:pushpin: Menu</strong>
