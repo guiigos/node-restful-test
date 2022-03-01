@@ -9,15 +9,11 @@
 # dotenv
 .env
 
-# editor
-.vscode
-
 # build
 dist
-doc
 
-# test
-coverage
+# editor
+.vscode
 
 # yarn
 yarn-debug.log*
@@ -28,6 +24,7 @@ npm-debug.log*
 package-lock.json
 
 # modules
+lib
 node_modules
 
 # macos
