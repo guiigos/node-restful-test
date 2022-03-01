@@ -27,6 +27,9 @@ package-lock.json
 lib
 node_modules
 
+# coverage
+coverage
+
 # macos
 ._*
 .DS_Store
