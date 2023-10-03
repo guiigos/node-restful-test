@@ -41,4 +41,4 @@ $ npm run jest
 ## License
 Project developed for academic purposes.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/github/license/guiigos/node-restful-test)](./LICENSE)
