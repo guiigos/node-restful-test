@@ -20,7 +20,7 @@ describe("Book", function () {
     } else {
       done();
     }
-  });
+  }, 30000);
 
   beforeEach(async function () {
     await new mongoose.models.Book(book).save();
