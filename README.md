@@ -4,19 +4,6 @@ Project designed to practice unit and integration tests with **NodeJs** performi
 
 [![Coverage Status](https://coveralls.io/repos/github/guiigos/node-restful-test/badge.svg)](https://coveralls.io/github/guiigos/node-restful-test)
 
-<details>
-  <summary>
-    <strong>:pushpin: Menu</strong>
-  </summary>
-  <br>
-  
-> - [_**Usage**_](#usage)
->   - [_Dependencies_](#dependencies)
->   - [_Scripts_](#scripts)
-> - [_**License**_](#license)
-  
-</details>
-
 ## Usage
 ### Dependencies
 
