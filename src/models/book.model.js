@@ -1,4 +1,4 @@
-const { model } = require('node-restful');
+const { model } = require("node-restful");
 
 const bookSchema = {
   title: {
@@ -12,5 +12,5 @@ const bookSchema = {
 };
 
 module.exports = Book = function () {
-  return model('Book', bookSchema);
+  return model("Book", bookSchema);
 };

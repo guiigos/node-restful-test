@@ -1,10 +1,10 @@
-const morgan = require('morgan');;
-const config = require('../../src/config/middlewares/morgan');
+const morgan = require("morgan");;
+const config = require("../../src/config/middlewares/morgan");
 
-jest.mock('morgan');
+jest.mock("morgan");
 
-describe('Config :: Middlewares :: Morgan', function () {
-  it('should be config morgan', function () {
+describe("Config :: Middlewares :: Morgan", function () {
+  it("should be config morgan", function () {
     const use = jest.fn();
 
     config({ use });

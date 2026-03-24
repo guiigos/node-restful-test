@@ -1,4 +1,4 @@
-const { mongoose } = require('node-restful');
+const { mongoose } = require("node-restful");
 
 module.exports = function () {
   mongoose.Promise = global.Promise;

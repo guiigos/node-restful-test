@@ -1,13 +1,13 @@
-const BookModel = require('../models/book.model');
+const BookModel = require("../models/book.model");
 
 module.exports = function (server) {
   const book = BookModel();
 
   book.methods([
-    'get',
-    'post',
-    'put',
-    'delete',
+    "get",
+    "post",
+    "put",
+    "delete",
   ]);
 
   book.updateOptions({
@@ -15,6 +15,6 @@ module.exports = function (server) {
     runValidators: true,
   });
 
-  book.register(server, '/book');
+  book.register(server, "/book");
 };
 

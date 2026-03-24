@@ -1,3 +1,3 @@
-const matchers = require('jest-extended');
+const matchers = require("jest-extended");
 
 expect.extend(matchers);

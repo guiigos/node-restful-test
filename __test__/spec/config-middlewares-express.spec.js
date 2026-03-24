@@ -1,10 +1,10 @@
-const express = require('express');
-const config = require('../../src/config/middlewares/express');
+const express = require("express");
+const config = require("../../src/config/middlewares/express");
 
-jest.mock('express');
+jest.mock("express");
 
-describe('Config :: Middlewares :: Express', function () {
-  it('should be config express', function () {
+describe("Config :: Middlewares :: Express", function () {
+  it("should be config express", function () {
     const use = jest.fn();
 
     config({ use });

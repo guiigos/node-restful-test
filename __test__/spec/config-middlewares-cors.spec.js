@@ -1,10 +1,10 @@
-const cors = require('cors');
-const config = require('../../src/config/middlewares/cors');
+const cors = require("cors");
+const config = require("../../src/config/middlewares/cors");
 
-jest.mock('cors');
+jest.mock("cors");
 
-describe('Config :: Middlewares :: Cors', function () {
-  it('should be config cors', function () {
+describe("Config :: Middlewares :: Cors", function () {
+  it("should be config cors", function () {
     const use = jest.fn();
 
     config({ use });
